@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>FATTY JAFRI - ART DIRECTOR </title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<style>
+
+
+body {
+    background-color: #ecfffb;
+}
+
+h1 {
+    color: #fecdff;
+    margin-left: 10px;
+    margin-top: 130px;
+    font-family: helvetica;
+    font-size: 300%;
+}
+
+
+h2 {
+    color: white;
+    font-family: helvetica;
+}
+
+p {
+    border: 1px solid powderblue;
+    padding: 20px;
+    margin: 100px;
+    width: 140px;
+}
+
+a:link    {color:powderblue; font-family: helvetica; text-decoration:none}
+a:hover   {color:white; font-family: helvetica; text-decoration:none}
+
+#image{
+position: absolute;
+}
+
+</style>
+</head>
+<body>
+<h1><center>My only talent is <br>
+pissing off the <Br>
+right people.</center></h1>
+
+<center><a href="http://www.fattyjafri.com/about"> <p> CONTACT ME</p></a> </center>
+
+<img id="image" src="https://storage.googleapis.com/fattyjafri/cursor_2.png"/>
+
+<script>
+$(document).mousemove(function(e){
+  $("body").css("cursor","none");
+    $("#image").css({left:e.pageX + 5, top:e.pageY + 5});
+});
+</script>
+
+</body>
+</html>
